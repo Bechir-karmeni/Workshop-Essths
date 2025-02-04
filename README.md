@@ -65,5 +65,4 @@ For any inquiries or suggestions, feel free to reach out!
 
 
 ## Demo
-
-https://github.com/Bechir-karmeni/Workshop-Essths/blob/main/Capture%20vid%C3%A9o%20du%2004%20%D9%81%D9%8A%D9%81%D8%B1%D9%8A%2C%202025%20CET%2002_52_40%20%D8%B5%20(online-video-cutter.com).gif
+https://raw.githubusercontent.com/Bechir-karmeni/Workshop-Essths/refs/heads/main/Capture%20vid%C3%A9o%20du%2004%20%D9%81%D9%8A%D9%81%D8%B1%D9%8A%2C%202025%20CET%2002_52_40%20%D8%B5%20(online-video-cutter.com).gif
