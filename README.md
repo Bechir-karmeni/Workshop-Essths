@@ -81,7 +81,7 @@ In a terminal, go to your project directory and run  main.py:
 # Prototype:
 
 
-![prototype](https://user-images.githubusercontent.com/92125959/193488362-418808c4-3b9e-49d2-9ca6-b878cb2cb30c.gif)
+![prototype](Capture vidéo du 04 فيفري, 2025 CET 02_52_40 ص (online-video-cutter.com).gif)
 
 
 
