@@ -1,87 +1,69 @@
-# Project
-> HandWritten Digit Recongnition
 
-# Team
-> Bechir Karmeni
+# Workshop-Essths
 
+Handwritten Digit Recognition using Deep Learning
 
-# Technologies
-> Python (Jupyter Notebook)
-
-# Optical character recognition or optical character reader (OCR)
-> Handwritten digit recognition is the ability of a computer
-to recognize the human handwritten digits from different
-sources like images, papers, touch screens, etc, and classify
-them into 10 predefined classes (0-9). This has been a
-topic of boundless-research in the field of deep learning.
-Digit recognition has many applications like number plate
-recognition, postal mail sorting, bank check processing, etc
-. In Handwritten digit recognition, we face many challenges
-because of different styles of writing of different peoples as it
-is not an Optical character recognition. This research provides
-a comprehensive comparison between different machine
-learning and deep learning algorithms for the purpose of
-handwritten digit recognition. For this, we have used Support
-Vector Machine, Multilayer Perceptron, and Convolutional
-Neural Network. The comparison between these algorithms
-is carried out on the basis of their accuracy, errors, and
-testing-training time corroborated by plots and charts that
-have been constructed using matplotlib for visualization.
+This project is an interactive application for recognizing handwritten digits using a deep learning model. The system is built using Python, Pygame for drawing, OpenCV for image processing, and Keras for model inference.
 
 
 
-**********************************************************************************
+## Features
 
-# Getting Started
+- Interactive digit drawing interface using Pygame.
 
-# Libraries Used :
-Setting up your development environment
-Installation of:
-- install python 3.10.7
-- pip install numpay
-- pip install tensorflow
-- pip install keras
-- pip install cv2
-- pip install matplotlib
-- pip install pygame
+- Deep learning-based digit recognition using a pre-trained model.
+
+- Real-time prediction and display of recognized digits.
+
+- Clear and quit functionalities for user convenience.
 
 
+## Installation
 
-**********************************************************************************
-# Installation of project from github:
+Clone the Repository
+```bash
+git clone https://github.com/Bechir-karmeni/Workshop-Essths.git
+cd Workshop-Essths
+```
 
-In a terminal, go to the folder of your choice Example:
-
-$ cd Documents/HandWritten Digit Recongnition/
-
-Copy the ssh key from the git repo to clone the project
-and type in the terminal:
-
-$ git clone (clé ssh)
-$ git flow init 
-
-
-**********************************************************************************
-
-# Launching the application:
-After the project is successfully installed in the chosen path
-In a terminal, go to your project directory and run  main.py:
+Install Dependencies
+```bash
+pip install -r requirements.txt
+```
 
 
+    
+    
+    
+## Usage/Examples
+To run the application, execute:
+```python
+python main.py
+```
+
+## Controls
+
+- Draw: Use the mouse to draw digits in the designated area.
+
+- Predict: Release the mouse to recognize the digit.
 
 
- 
-# Application hierarchy:
-
->HandWritten Digit Recongnition/main.py/ : file to run
->HandWritten Digit Recongnition/bestmodel.h5 : file of the best model (94 accuracy)
->Reporting and Recommender System/untitled.jpynb : jupyter notebook file
+- Clear Screen: Press 'C' to clear the screen.
 
 
-# Prototype:
+- Quit: Press 'Q' to exit the application.
+
+## Model
 
 
-![prototype](Capture vidéo du 04 فيفري, 2025 CET 02_52_40 ص (online-video-cutter.com).gif)
+The deep learning model is trained on the MNIST dataset and saved as bestmodel.h5. The model is loaded at runtime to predict user-drawn digits.
+## Authors
+
+Bechir Karmeni
+
+For any inquiries or suggestions, feel free to reach out!
 
 
+## Demo
 
+https://github.com/Bechir-karmeni/Workshop-Essths/blob/main/Capture%20vid%C3%A9o%20du%2004%20%D9%81%D9%8A%D9%81%D8%B1%D9%8A%2C%202025%20CET%2002_52_40%20%D8%B5%20(online-video-cutter.com).gif
